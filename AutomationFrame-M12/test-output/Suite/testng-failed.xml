@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test2(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="contactTest.CreateContactWithorganizationTest">
+        <methods>
+          <include name="afterSuiteConfig"/>
+          <include name="beforeclassCofig"/>
+          <include name="beforesuiteconfig"/>
+          <include name="beforeMethodConfig"/>
+          <include name="toCreatecontactOrgan_005"/>
+          <include name="aftermethodConfig"/>
+          <include name="afterClassconfig"/>
+        </methods>
+      </class> <!-- contactTest.CreateContactWithorganizationTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
